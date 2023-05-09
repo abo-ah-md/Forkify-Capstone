@@ -1,3 +1,4 @@
+import { async } from "regenerator-runtime";
 import "core-js/stable";
 import "regenerator-runtime/runtime";
 import * as model from "./model.js";
@@ -8,7 +9,6 @@ import bookmarkView from "./views/bookmarkView.js"
 import AddRecipeView from "./views/addRecipeView.js"
 
 import pageView from "./views/pageView.js"
-import { async } from "regenerator-runtime";
 
 //for hot reloading using parcel
 if (module.hot) module.hot.accept; 
